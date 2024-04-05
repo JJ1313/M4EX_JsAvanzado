@@ -5,13 +5,14 @@
 
 html {
   background: #ffc107;
+  background: #7b6932;
 }
 
 body {
   background-image: url("../imgs/fondo.jpg");
   background-position: bottom;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   height: 100vh;
   padding: 100px;
 }
@@ -56,6 +57,12 @@ body {
 
 .modal-dialog {
   max-width: 85% !important;
+
+  img {
+    width: 223px;
+    height: 280px;
+    object-fit: cover;
+  }
 }
 
 /* Animal card */
